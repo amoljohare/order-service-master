@@ -1,17 +1,17 @@
 install:
-commands:
-    - echo Nothing to do in the install phase
+    commands:
+        - echo Nothing to do in the install phase
 pre_build:
-  commands:
-    - echo Nothing to do in the pre_build phase
+    commands:
+        - echo Nothing to do in the pre_build phase
 build:
-  commands:
-    - echo build started on 'date'
-    - mvn install
+    commands:
+        - echo build started on 'date'
+        - mvn install
 post_build:
-  commands:
-    - echo build completed on 'date'
+    commands:
+        - echo build completed on 'date'
 artifacts:
     files:
-        - 'target/cicdDemo.jar'
+        - 'target/ccdemo.war'
 
