@@ -17,5 +17,5 @@ phases:
             - echo build completed on 'date'
     artifacts:
         files:
-            - 'target/cicdDemo.jar'
+            - target/cicdDemo.jar
 
